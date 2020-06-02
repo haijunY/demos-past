@@ -1,0 +1,10 @@
+server:
+  port: 1112
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: host_route
+          uri: http://httpbin.org:80/get
+          predicates:
+            - Host=**.xxx.com

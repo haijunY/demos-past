@@ -1,0 +1,10 @@
+server:
+  port: 1112
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: s2
+          uri: http://httpbin.org:80/get
+          predicates:
+            - Cookie=name, forezp
