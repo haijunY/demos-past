@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.yhj.study.designpattern.factory.factorymethod.FactoryMethodTest</OriginalElement>
+  <nodes>
+    <node x="226.0" y="535.0">com.yhj.study.designpattern.factory.PythonCourse</node>
+    <node x="113.0" y="403.0">com.yhj.study.designpattern.factory.ICourse</node>
+    <node x="0.0" y="758.0">com.yhj.study.designpattern.factory.abstractfactory.JavaNote</node>
+    <node x="477.0" y="499.0">com.yhj.study.designpattern.factory.abstractfactory.JavaVideo</node>
+    <node x="492.5" y="403.0">com.yhj.study.designpattern.factory.abstractfactory.IVideo</node>
+    <node x="15.5" y="662.0">com.yhj.study.designpattern.factory.abstractfactory.INote</node>
+    <node x="0.0" y="535.0">com.yhj.study.designpattern.factory.JavaCourse</node>
+    <node x="0.0" y="0.0">com.yhj.study.designpattern.factory.abstractfactory.ICourseFactory</node>
+    <node x="0.0" y="204.0">com.yhj.study.designpattern.factory.abstractfactory.JavaCourseFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.yhj.study.designpattern.factory.abstractfactory.JavaNote" target="com.yhj.study.designpattern.factory.abstractfactory.INote">
+      <point x="0.0" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="com.yhj.study.designpattern.factory.abstractfactory.JavaVideo" target="com.yhj.study.designpattern.factory.abstractfactory.IVideo">
+      <point x="0.0" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="com.yhj.study.designpattern.factory.JavaCourse" target="com.yhj.study.designpattern.factory.ICourse">
+      <point x="0.0" y="-41.0" />
+      <point x="103.0" y="510.0" />
+      <point x="164.5" y="510.0" />
+      <point x="-51.5" y="41.0" />
+    </edge>
+    <edge source="com.yhj.study.designpattern.factory.PythonCourse" target="com.yhj.study.designpattern.factory.ICourse">
+      <point x="0.0" y="-41.0" />
+      <point x="329.0" y="510.0" />
+      <point x="267.5" y="510.0" />
+      <point x="51.5" y="41.0" />
+    </edge>
+    <edge source="com.yhj.study.designpattern.factory.abstractfactory.JavaCourseFactory" target="com.yhj.study.designpattern.factory.abstractfactory.ICourseFactory">
+      <point x="0.0" y="-77.0" />
+      <point x="0.0" y="77.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="293.0" y="393.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

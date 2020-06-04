@@ -1,0 +1,14 @@
+package ${package}.biz;
+
+import ${package}.entity.${className};
+
+/**
+ * ${comments}
+ * @author : ${author}
+ * @email : ${email}
+ * @since : ${datetime}
+ * @version : v1.0.0
+ */
+public interface  ${className}Mapper<${className}> {
+
+}

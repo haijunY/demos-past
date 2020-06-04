@@ -1,0 +1,18 @@
+package ${package}.biz;
+
+import org.springframework.stereotype.Service;
+
+import ${package}.entity.${className};
+import ${package}.mapper.${className}Mapper;
+
+/**
+* ${comments}
+* @author : ${author}
+* @email : ${email}
+* @since : ${datetime}
+* @version : v1.0.0
+*/
+@Service
+public class ${className}Biz<${className}Mapper, ${className}> {
+
+}
