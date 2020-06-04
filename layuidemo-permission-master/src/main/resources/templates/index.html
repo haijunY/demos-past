@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>XXX后台管理系统</title>
+    <link rel="stylesheet" th:href="@{layui/css/layui.css}">
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header">
+        <div class="layui-logo">XXX后台管理系统</div>
+        <!-- 头部区域（可配合layui已有的水平导航） -->
+        <ul class="layui-nav layui-layout-left">
+            <li class="layui-nav-item"><a href="">控制台</a></li>
+            <li class="layui-nav-item"><a href="">商品管理</a></li>
+            <li class="layui-nav-item"><a href="">用户</a></li>
+            <li class="layui-nav-item">
+                <a href="javascript:;">其它系统</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">邮件管理</a></dd>
+                    <dd><a href="">消息管理</a></dd>
+                    <dd><a href="">授权管理</a></dd>
+                </dl>
+            </li>
+        </ul>
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+                <a href="javascript:;">
+                    <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+                    <span th:text="${adminUserInfo.userName}"></span>
+                </a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">基本资料</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item"><a href="">退了</a></li>
+        </ul>
+    </div>
+
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+            <ul class="layui-nav layui-nav-tree">
+
+                <li class="layui-nav-item" th:each="adminParentMenuInfo : ${adminUserInfo.adminParentMenuInfos}">
+                    <a class="" href="javascript:;" th:text="${adminParentMenuInfo.parentMenuName}"></a>
+                    <dl class="layui-nav-child" th:each="adminMenuInfo : ${adminParentMenuInfo.adminMenuInfos}">
+                        <dd class="layui-nav">
+                            <a href="javascript:;" th:id="${adminMenuInfo.filterId}" th:zdy-url="${adminMenuInfo.menuUrl}">
+                                <cite th:text="${adminMenuInfo.menuName}"></cite>
+                            </a>
+                        </dd>
+                    </dl>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="layui-body">
+        <div class="layui-tab" lay-allowClose="true" lay-filter="demo">
+            <ul class="layui-tab-title" id="myLayuiTab">
+            </ul>
+            <div class="layui-tab-content">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-footer">
+        <!-- 底部固定区域 -->
+        © layui.com - 底部固定区域
+    </div>
+</div>
+<script th:src="@{layui/layui.js}"></script>
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+        element.on('nav', function(data){
+//            console.log(this); //当前Tab标题所在的原始DOM元素
+            var zdyUrl = this.getAttribute("zdy-url"); //获取url
+            var layId = this.getAttribute("id"); //获取id
+            var title = this.getElementsByTagName("cite").item(0).textContent;
+            //组装content
+            var content = '<iframe  frameborder="0" scrolling="no" width="100%" height="100%" src="' + zdyUrl + '"></iframe>';
+
+            //判断myLayuiTab中有没有重复，如果有，则不添加
+            var documentLis = document.getElementById("myLayuiTab").getElementsByTagName("li");
+            var flag = false;
+            for(var i=0; i<documentLis.length; i++){
+                var documentLi = documentLis[i];
+                var layIdView = documentLi.getAttribute("lay-id");
+                if(layId == layIdView){
+                    flag = true;
+                }
+            }
+            if(!flag) {
+                //添加
+                element.tabAdd('demo', {
+                    title: title
+                    , content: content
+                    , id: layId
+                });
+            }
+            //切换
+            element.tabChange('demo', layId);
+        });
+
+    });
+
+</script>
+</body>
+</html>

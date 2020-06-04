@@ -1,0 +1,12 @@
+server:
+  port: 1000
+
+spring:
+  application: name=demo-gate
+  cloud:
+    gateway:
+      routes:
+        - id: before_route
+          uri: localhost:1111
+          predicates:
+            - Before=2019-10-20T17:42:47.789-07:00[America/Denver]
