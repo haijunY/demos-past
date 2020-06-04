@@ -1,4 +1,4 @@
-package com.demos.gateway.two;
+package com.demos.gateway.limiter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

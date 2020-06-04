@@ -1,0 +1,24 @@
+server:
+  port: 1111
+spring:
+  application:
+    name: gateway-discovey-eureka
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+#      routes:
+#        - id: service-hi
+#          uri: lb://SERVICE-HI
+#          predicates:
+#            - Path=/demo/**
+#          filters:
+#            - StripPrefix=1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+

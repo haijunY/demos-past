@@ -1,13 +1,15 @@
-package com.demos.gateway.two;
+package com.demos.gateway.limiter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GatewayTwoApplication {
+public class GatewayLimiterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GatewayTwoApplication.class, args);
+        SpringApplication.run(GatewayLimiterApplication.class, args);
     }
+
+
 
 }

@@ -1,4 +1,4 @@
-package com.demos.gateway.two.controller;
+package com.demos.gateway.limiter.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
