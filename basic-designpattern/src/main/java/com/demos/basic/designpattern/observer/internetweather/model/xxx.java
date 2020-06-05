@@ -1,0 +1,1 @@
+package com.demos.basic.designpattern.observer.internetweather.model;

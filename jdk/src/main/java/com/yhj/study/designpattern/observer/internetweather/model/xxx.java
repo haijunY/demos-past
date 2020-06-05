@@ -1,1 +1,0 @@
-package com.yhj.study.designpattern.observer.internetweather.model;
