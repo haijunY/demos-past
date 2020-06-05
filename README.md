@@ -38,9 +38,11 @@
     <tr>
         <td>demo-spring-cloud-gateway</td>
         <td>
-            <a href="http://blog.haijuny.wang/微服务/3、SpringCloudGateway限流/">3、SpringClouldGateway限流</a><br>
-            <a href="http://blog.haijuny.wang/微服务/4、SpringCloudGateway限流/">4、SpringClouldGateway限流</a><br>
-            <a href="http://blog.haijuny.wang/微服务/5、SpringCloudGateway服务注册与发现/">5、SpringClouldGateway服务注册与发现</a><br>
+            <a href="http://blog.haijuny.wang/SpringCloudGateway/1、SpringCloudGateway入门/">3、SpringClouldGateway入门</a><br>
+            <a href="http://blog.haijuny.wang/SpringCloudGateway/2、SpringCloudGateway断言/">4、SpringClouldGateway断言</a><br>
+            <a href="http://blog.haijuny.wang/SpringCloudGateway/3、SpringCloudGateway过滤器/">3、SpringClouldGateway过滤器</a><br>
+            <a href="http://blog.haijuny.wang/SpringCloudGateway/4、SpringCloudGateway限流/">4、SpringClouldGateway限流</a><br>
+            <a href="http://blog.haijuny.wang/SpringCloudGateway/5、SpringCloudGateway服务注册与发现/">5、SpringClouldGateway服务注册与发现</a><br>
         </td>
     </tr>
 </table>
