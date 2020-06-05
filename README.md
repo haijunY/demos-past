@@ -3,9 +3,9 @@
 个人博客：http://blog.haijuny.wang/
 <table>
     <tr>
-        <th>项目</th>
-        <th>说明</th>
-        <th>链接</th>
+        <th style="width: 20%">项目</th>
+        <th style="width: 20%">说明</th>
+        <th style="width: 60%">链接</th>
     </tr>
     <tr>
         <td>basic-concurrency</td>
