@@ -3,9 +3,9 @@
 个人博客：http://blog.haijuny.wang/
 <table>
     <tr>
-        <th style="width: 20%">项目</th>
-        <th style="width: 20%">说明</th>
-        <th style="width: 60%">链接</th>
+        <th>项目</th>
+        <th>说明</th>
+        <th>链接</th>
     </tr>
     <tr>
         <td>basic-concurrency</td>
@@ -42,7 +42,10 @@
     </tr>
     <tr>
         <td>demo-spring-cloud-gateway</td>
-        <td>集成SpringCloud网关技术的demo，在具体使用时候可以随时查看，使用Spring Cloud版本Greenwich.RELEASE，Spring Boot版本2.1.4.RELEASE</td>
+        <td>集成SpringCloud网关技术的demo，
+        在具体使用时候可以随时查看，
+        使用Spring Cloud版本Greenwich.RELEASE，
+        Spring Boot版本2.1.4.RELEASE</td>
         <td>
             <a href="http://blog.haijuny.wang/HighConcurrency-snychronized/">Spring-Cloud-Gateway示例(Greenwich版本)</a><br>
             <a href="http://blog.haijuny.wang/HighConcurrency-snychronized/">Spring-Cloud-Gateway示例(Greenwich版本)</a><br>
