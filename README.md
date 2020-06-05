@@ -38,10 +38,9 @@
     <tr>
         <td>demo-spring-cloud-gateway</td>
         <td>
-            <a href="http://blog.haijuny.wang/HighConcurrency-snychronized/">Spring-Cloud-Gateway示例(Greenwich版本)</a><br>
-            <a href="http://blog.haijuny.wang/HighConcurrency-snychronized/">Spring-Cloud-Gateway示例(Greenwich版本)</a><br>
-            <a href="http://blog.haijuny.wang/HighConcurrency-snychronized/">Spring-Cloud-Gateway示例</a><br>
-            <a href="http://blog.haijuny.wang/HighConcurrency-snychronized/">Spring-Cloud-Gateway示例</a><br>
+            <a href="http://blog.haijuny.wang/微服务/3、SpringCloudGateway限流/">3、SpringClouldGateway限流</a><br>
+            <a href="http://blog.haijuny.wang/微服务/4、SpringCloudGateway限流/">4、SpringClouldGateway限流</a><br>
+            <a href="http://blog.haijuny.wang/微服务/5、SpringCloudGateway服务注册与发现/">5、SpringClouldGateway服务注册与发现</a><br>
         </td>
     </tr>
 </table>
