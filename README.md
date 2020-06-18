@@ -106,7 +106,7 @@
         <td>
             <a href="http://blog.haijuny.wang/ToolSet/1、自动生成代码工具">1、自动生成代码工具</a><br>
             <a href="http://blog.haijuny.wang/ToolSet/2、xxl-job">2、xxl-job</a><br>
-            <a href="http://blog.haijuny.wang/ToolSet/3、mysql">3、mysql</a><br>
+            <a href="http://blog.haijuny.wang/ToolSet/3、mysql">3、Mysql</a><br>
             <a href="http://blog.haijuny.wang/ToolSet/4、RabbitMQ">4、RabbitMQ</a><br>
             <a href="http://blog.haijuny.wang/ToolSet/5、Redis">5、Redis</a><br>
             <a href="http://blog.haijuny.wang/ToolSet/6、git">6、git</a><br>
@@ -117,4 +117,17 @@
             <a href="http://blog.haijuny.wang/ToolSet/11、ubuntu安装tomcat">11、ubuntu安装tomcat</a><br>
         </td>
     </tr>
+    <tr>
+        <td>推荐学习网址</td>
+        <td>
+            <a href="http://www.itmuch.com/docker/00-docker-lession-index/">Docker教程</a><br>
+            <a href="http://cmsblogs.com/?p=5621">SpringCloud教程</a><br>
+            <a href="https://github.com/zhoutaoo/SpringCloud">微服务开发脚手架</a><br>
+            <a href="https://leetcode-cn.com/">算法学习leetcode</a><br>
+            <a href="https://www.jianshu.com/p/59f75f30e655">分布式系统JWT</a><br>
+            <a href="https://www.cnblogs.com/demingblog/p/10874753.html">Spring Security</a><br>
+            <a href="https://www.runoob.com/vue2/vue-tutorial.html">Vue教程</a><br>
+        </td>
+    </tr>
+    <tr>
 </table>
