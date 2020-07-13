@@ -124,10 +124,12 @@
             <a href="http://cmsblogs.com/?p=5621">SpringCloud教程</a><br>
             <a href="https://github.com/zhoutaoo/SpringCloud">微服务开发脚手架</a><br>
             <a href="https://leetcode-cn.com/">算法学习leetcode</a><br>
+            <a href="https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie">算法进阶指南</a><br>
             <a href="https://www.jianshu.com/p/59f75f30e655">分布式系统JWT</a><br>
             <a href="https://www.cnblogs.com/demingblog/p/10874753.html">Spring Security</a><br>
             <a href="https://www.runoob.com/vue2/vue-tutorial.html">Vue教程</a><br>
-        </td>
+            <a href="http://idea.medeming.com/jets/">idea激活码</a><br>
+       </td>
     </tr>
     <tr>
 </table>
