@@ -36,6 +36,12 @@
         </td>
     </tr>
     <tr>
+        <td>frame-drools</td>
+        <td>
+            <a href="">1、初涉规则引擎框架drools</a><br>
+        </td>
+    </tr>
+    <tr>
         <td>frame-dubbo</td>
         <td>
             <a href="http://blog.haijuny.wang/FrameDubbo/1、Dubbo入门">1、Dubbo入门</a><br>
@@ -129,6 +135,7 @@
             <a href="https://www.cnblogs.com/demingblog/p/10874753.html">Spring Security</a><br>
             <a href="https://www.runoob.com/vue2/vue-tutorial.html">Vue教程</a><br>
             <a href="http://idea.medeming.com/jets/">idea激活码</a><br>
+            <a href="https://www.orchome.com/kafka/index">kafka中文教程</a><br>
        </td>
     </tr>
     <tr>

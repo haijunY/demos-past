@@ -22,7 +22,7 @@ end
 //规则三：所购图书总价在200到300元的优惠50元
 rule "book_discount_3"
     when
-        $order:Order(originalPrice <= 300 && originalPrice >= 200)
+        $order:Order(getOriginalPrice() <= 300 && getOriginalPrice() >= 200)
     then
         $order.setRealPrice($order.getOriginalPrice() - 50);
         System.out.println("成功匹配到规则三：所购图书总价在200到300元的优惠50元");
